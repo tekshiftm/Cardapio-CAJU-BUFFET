@@ -23,36 +23,42 @@
                 Voltar
             </a>
         </div>
-        <!-- Top -->
+
         <h1>Carrinho de compras</h1>
-        <p class="info">Ao clicar em ‘Gerar Pedido’ você será redirecionado automaticamente para o WhatsApp da lanchonete juntamente
-            com seu pedido. Por isso, verifique todos os itens da sua lista antes de continuar. Após ser redirecionado
-            você finalizará a compra efetuando o pagamento para um de nossos atendentes. =D</p>
-        <!-- Content -->
+        <p class="info">Ao clicar em ‘Gerar Pedido’ você será redirecionado automaticamente para o WhatsApp da
+            lanchonete juntamente com seu pedido. Por isso, verifique todos os itens antes de continuar. Após ser
+            redirecionado, você finalizará a compra efetuando o pagamento para um de nossos atendentes.</p>
+
         <div class="row">
-            <!-- Left -->
             <div class="items">
                 <h2>Itens escolhidos</h2>
                 <hr>
-                <div id="showItems">
-                    <!-- ITEMS -->
-                </div>
+                <div id="showItems"></div>
             </div>
-            <!-- Right -->
+
             <div class="total">
                 <h2>Valor final</h2>
                 <hr>
+
                 <div class="division">
                     <h3>Entrega</h3>
+
                     <div class="option">
-                        <p>Refeição no local (+ R$ 0,00)</p>
+                        <p>Retirada no local (+ R$ 0,00)</p>
                         <button id="dontWantDelivery" class="active"></button>
                     </div>
+
                     <div class="option">
                         <p>Delivery (+ R$ 7,00)</p>
                         <button id="wantDelivery"></button>
                     </div>
+
+                    <div class="option">
+                        <p>Refeição no Salão (+ R$ 0,00)</p>
+                        <button id="eatIn"></button>
+                    </div>
                 </div>
+
                 <div class="division">
                     <h3>Cupom</h3>
                     <div class="promotionCode">
@@ -60,6 +66,7 @@
                         <button id="addPromotionCode">+</button>
                     </div>
                 </div>
+
                 <div class="division">
                     <h3>Informações</h3>
                     <div class="item">
@@ -75,23 +82,28 @@
                         <span id="showDiscount">Carregando...</span>
                     </div>
                 </div>
+
                 <hr>
+
                 <div class="division">
                     <h3>Seu Nome</h3>
-                    <input type="text" id="userName" placeholder="Digite seu nome" style="width: 100%; max-width: 400px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+                    <input type="text" id="userName" placeholder="Digite seu nome"
+                        style="width: 100%; max-width: 400px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
                 </div>
-                 <!-- Adicionais -->
-                <!-- Adicionais -->
+
                 <div class="division">
                     <h3>Observações ou Adicionais</h3>
-                    <textarea id="userObservation" placeholder="Digite aqui suas observações ou adicionais" style="width: 100%; max-width: 400px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 100px;"></textarea>
+                    <textarea id="userObservation" placeholder="Digite aqui suas observações ou adicionais"
+                        style="width: 100%; max-width: 400px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 100px;"></textarea>
                 </div>
 
                 <div class="item">
                     <h3>Total</h3>
                     <span id="showTotal">Carregando...</span>
                 </div>
+
                 <button id="generateOrder">Gerar Pedido</button>
+
                 <div class="keepBuying">
                     <p>ou</p>
                     <a href="../index.html">Continuar comprando</a>
