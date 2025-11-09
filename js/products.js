@@ -37,7 +37,7 @@ const products = [
     {
         id: 4004,
         type: 1,
-        name: 'Filé Medalhão',
+        name: 'Filé Medalhão Indisponivel no momento',
         description: 'ARROZ, FEIJÃO, MACARRÃO, VERDURA E FAROFA',
         price: 70.00,
         lastPrice: 0,
@@ -46,7 +46,7 @@ const products = [
     {
         id: 4005,
         type: 1,
-        name: 'Carne de Sol',
+        name: 'Carne de Sol Indisponivel no momento',
         description: 'ARROZ, FEIJÃO, MACARRÃO, VERDURA E FAROFA',
         price: 55.00,
         lastPrice: 0,
@@ -55,7 +55,7 @@ const products = [
     {
         id: 4006,
         type: 1,
-        name: 'Carne de Sol (1/2)',
+        name: 'Carne de Sol (1/2) Indisponivel no momento',
         description: 'ARROZ, FEIJÃO, MACARRÃO, VERDURA E FAROFA',
         price: 45.00,
         lastPrice: 0,
@@ -103,7 +103,7 @@ const products = [
     {
         id: 1,
         type: 2,
-        name: 'Carne de Sol trinchada com fritas',
+        name: 'Carne de Sol trinchada com fritas Indisponivel no momento',
         description: '',
         price: 35.00,
         lastPrice: 0,
